@@ -9,11 +9,11 @@ buildscript {
 }
 
 group = "com.github.tronprotocol"
-ext.githubProjectName = "chainbase"
+ext.githubProjectName = "actuator"
 
 version = project.properties["release.version"]
 
-description = "chainbase – a decentralized database for blockchain."
+description = "actuator – a series of transactions for blockchain."
 
 apply plugin: "java-library"
 //apply plugin: "checkstyle"

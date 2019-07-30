@@ -1,7 +1,5 @@
-[![](https://jitpack.io/v/tronprotocol/chainbase.svg)](https://jitpack.io/#tronprotocol/chainbase)
-
-# chainbase
-A decentralized database for blockchain.
+# Actuator
+A series of transactions for blockchain.
 
 ## Dependencies
 
@@ -21,7 +19,7 @@ allprojects {
 Step 2. Add the dependency. 
 ```
 dependencies {
-    implementation 'com.github.tronprotocol:chainbase:${version}'
+    implementation 'com.github.tronprotocol:actuator:${version}'
 }
 ```
 
@@ -42,7 +40,7 @@ Step 2. Add the dependency.
 ```
 <dependency>
     <groupId>com.github.tronprotocol</groupId>
-	  <artifactId>chainbase</artifactId>
+	  <artifactId>actuator</artifactId>
 	  <version>${version}</version>
 </dependency>
 	
